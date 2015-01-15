@@ -62,7 +62,6 @@ strong {
 }
 
 .intro-salesfetch {
-	padding-bottom: 50px;
 	padding-top: 10px;
 	margin-top: 0px;
 	/*background-color: #14A8E1;*/
@@ -196,6 +195,7 @@ img.center{
 	color: #fff;
 	background-color: inherit;
 	border-width: 0px;
+	margin-top: 70px;
 }
 
 .thumbnail {
@@ -208,10 +208,23 @@ img.center{
 	padding-top: 90px;
 }
 
+.header-thumbnail > img {
+	max-width: 70%;
+}
+
 .use-case-thumbnail {
 	text-align: center;
+	padding-top: 50px;
 	margin-top: 70px;
 }
+
+@media (max-width: 767px) {}
+	.use-case-thumbnail {
+		padding-top: 25px;
+	}
+}
+
+
 
 /* ---------------------------------------------------------------
 						Media queries
@@ -221,6 +234,9 @@ img.center{
 	.use-case-thumbnail {
 		padding-top: 25px;
 	}
+	.use-case-thumbnail > img {
+	max-width: 100%;
+}
 }
 
 
@@ -232,7 +248,6 @@ img.center{
 }
 
 @media (max-width: 767px) {
-
 	.hidden-mobile {
 		display: none;
 	}
@@ -240,9 +255,14 @@ img.center{
 }
 
 @media (max-width: 767px) {
-
 	footer {
 		text-align: center;
+	}
+}
+
+@media (min-width: 767px) {
+	.main-head {
+		margin-top: 100px
 	}
 }
 
