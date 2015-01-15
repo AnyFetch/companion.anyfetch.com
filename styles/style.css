@@ -243,17 +243,10 @@ img.center{
 		width: 100%;
 	}
 
-	.navbar-ex1-collapse {
-		margin-top: 14px;
-	}
 }
 
 @media (max-width: 767px) {
 
-	.content {
-		margin-top: 0;
-		margin-bottom: 80px;
-	}
 	footer {
 		text-align: center;
 	}
