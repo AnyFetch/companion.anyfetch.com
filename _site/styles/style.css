@@ -23,6 +23,12 @@ p.copyright {
 	margin: 15px 0 0;
 }
 
+.vcenter{
+		display: flex;
+		align-items: center;
+	}
+
+
 h1 {
 	color: #16A9E2;
 	font-size: 4.5em;
@@ -218,7 +224,7 @@ img.center{
 	margin-top: 70px;
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
 	.use-case-thumbnail {
 		padding-top: 25px;
 	}
@@ -240,13 +246,7 @@ img.center{
 }
 
 
-@media (min-width: 768px) {
-	.feature-area .row, .intro-salesfetch .row {
-		display: flex;
-		align-items: center;
-	}
-}
-
+	
 @media (max-width: 767px) {
 	.hidden-mobile {
 		display: none;
