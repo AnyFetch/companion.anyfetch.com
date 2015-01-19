@@ -88,9 +88,9 @@ strong {
 	border-color: #fff;
 }
 
-.content {
+/*.content {
 	margin-top: 100px;
-}
+}*/
 
 h1.white {
 	color: #fff;
@@ -110,7 +110,6 @@ img.center{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
 }
 .icon-banners {
 	margin: 25px 0;
