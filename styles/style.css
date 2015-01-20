@@ -40,7 +40,7 @@ h2 {
 		display: flex;
 		display: -webkit-flex;
 		align-items: center;
-		-webkit-flex-direction: row 
+		-webkit-flex-direction: row ;
 		flex-direction: row;
 		-webkit-align-items: center;
 		align-items: center;
