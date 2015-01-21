@@ -82,6 +82,11 @@ strong {
 	font-weight: 800;
 }
 
+.pain{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
 .use-case-thumbnail > img {
 	max-width: 60%;
 }
@@ -126,6 +131,7 @@ img.center{
 }
 .icon-banners {
 	margin: 25px 0;
+	text-align: center;
 }
 
 .feature-area h4 {
@@ -157,9 +163,13 @@ img.center{
 	background-color: #fff;
 }
 
-.navbar img {
+#logo {
 	width: 1.7em;
 	height: 1.7em;
+}
+
+#cta {
+	width: 60%;
 }
 
 .navbar-default .navbar-brand:hover {
